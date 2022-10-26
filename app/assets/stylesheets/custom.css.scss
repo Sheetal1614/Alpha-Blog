@@ -1,9 +1,14 @@
-@import 'bootstrap/dist/css/bootstrap';
 .navbar {
-  background-color: black !important;
+  background-color: red !important;
 }
 .nav-link {
   color: white !important;
+}
+.footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
 }
 #logo {
   float: left;
@@ -17,14 +22,13 @@
   margin-top: 25px;
 }
 .jumbotron {
-  background-image: asset-url('jumbo-copy.jpg');
+  background-image: asset-url('jumbo.jpeg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 425px;
 }
-html,
-body {
+html,body {
   height: 100%;
 }
 #page-content {
