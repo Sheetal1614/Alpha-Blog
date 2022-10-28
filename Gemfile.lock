@@ -253,6 +253,7 @@ DEPENDENCIES
   pg
   puma (~> 5.0)
   rails (~> 7.0.4)
+  rexml
   sassc-rails (>= 2.1.0)
   selenium-webdriver
   sprockets-rails
